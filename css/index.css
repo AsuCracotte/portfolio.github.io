@@ -22,12 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-top: 20%;
+    margin: 20% 22% 0 22%;
 }
 
 .presentation {
@@ -36,13 +31,13 @@ body {
 
 .span-box {
     display: block;
-    margin: 0 auto;
     padding: 20px;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    background-color: rgba(43, 26, 73, 0.27);
     text-align: center;
     width: 50%;
+    margin: 10% auto;
+    backdrop-filter: drop-shadow(0 0 1rem white);
 }
 * {
     margin: 0;
